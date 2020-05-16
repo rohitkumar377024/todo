@@ -23,12 +23,14 @@ function Adder(props) {
         onChange={handleChange}
         type="text"
         name="text"
+        placeholder="Task To Do"
       />
       <input
         className="adder-time"
         onChange={handleChange}
         type="text"
         name="time"
+        placeholder="Completion Time"
       />
       <button
         className="adder-btn"

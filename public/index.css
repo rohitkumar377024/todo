@@ -39,6 +39,35 @@ body {
 /* Adder */
 .adder-container {
   padding: 0 20px 32px;
+  display: flex;
+}
+
+.adder-text {
+  flex: 3;
+  height: 32px;
+  padding: 5px;
+}
+
+.adder-time {
+  flex: 2;
+  margin: 0 12px;
+  padding: 5px;
+}
+
+.adder-btn {
+  flex: 1;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #e74c3c;
+}
+
+.adder-btn:hover {
+  background-color: #d04333;
+}
+
+.adder-btn:active {
+  background-color: #df3e2d;
 }
 
 /* Todo */
