@@ -10,10 +10,12 @@ function App() {
     { text: 'Go to South Ex.', time: '16 May, 2020' }
   ]);
 
+  const addTodo = todo => setTodos([...todos, todo]);
+
   return (
     <div className="main-container">
       <Header />
-      <Adder />
+      <Adder onAdd={addTodo} />
       {todos.map(todo => (
         <Todo text={todo.text} time={todo.time} />
       ))}

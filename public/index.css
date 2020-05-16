@@ -37,6 +37,9 @@ body {
 }
 
 /* Adder */
+.adder-container {
+  padding: 0 20px 32px;
+}
 
 /* Todo */
 .todo-container {
