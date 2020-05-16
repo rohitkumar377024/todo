@@ -2,21 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Comfortaa';
 }
 
 body {
+  font-family: 'Comfortaa';
   background-color: #eee;
 }
 
-.todo-container {
+.main-container {
+  background-color: #fff;
   width: 560px;
-  display: flex;
-  margin: 24px auto;
-  padding: 16px;
+  margin: 12px auto;
   border-radius: 4px;
   box-shadow: 5px 5px 10px 0 #ccc;
-  background-color: #fff;
+}
+
+/* Header */
+.heading-container {
+  margin: 32px 0 16px;
+  padding: 32px 20px 16px;
+}
+
+.heading-title {
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.heading-description {
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+  color: grey;
+}
+
+/* Adder */
+
+/* Todo */
+.todo-container {
+  display: flex;
+  padding: 16px;
+  border-radius: 4px;
+  border-top: 1px solid rgba(238, 238, 238, 0.735);
 }
 
 .todo-checkbox {
@@ -27,7 +54,6 @@ body {
 
 .todo-info {
   margin-left: 25px;
-  font-family: Avenir;
 }
 
 .todo-text {

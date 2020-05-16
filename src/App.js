@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
+import Header from './components/Header';
+import Adder from './components/Adder';
 import Todo from './components/Todo';
 
 function App() {
   const [todos, setTodos] = useState([
-    { text: 'r1', time: 'random 1' },
-    { text: 'r2', time: 'random 2' },
-    { text: 'r3', time: 'random 3' }
+    { text: 'Buy Kit Kat.', time: '13 May, 2020' },
+    { text: 'Feed Kitty.', time: '14 May, 2020' },
+    { text: 'Go to South Ex.', time: '16 May, 2020' }
   ]);
 
   return (
-    <div>
+    <div className="main-container">
+      <Header />
+      <Adder />
       {todos.map(todo => (
         <Todo text={todo.text} time={todo.time} />
       ))}
