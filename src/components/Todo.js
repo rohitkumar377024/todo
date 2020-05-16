@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Todo() {
+function Todo(props) {
   const [isChecked, setChecked] = useState(false);
   function handleClick() {
     setChecked(prev => !prev);
@@ -22,9 +22,9 @@ function Todo() {
           }}
           className="todo-text"
         >
-          Do Something.
+          {props.text}
         </p>
-        <p className="todo-time">Wed, May 13.</p>
+        <p className="todo-time">{props.time}</p>
       </div>
     </div>
   );
