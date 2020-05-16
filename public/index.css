@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa';
+}
+
 body {
-  background-color: aquamarine;
+  background-color: #eee;
+}
+
+.todo-container {
+  width: 560px;
+  display: flex;
+  margin: 24px auto;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 0 #ccc;
+  background-color: #fff;
+}
+
+.todo-checkbox {
+  align-self: flex-start;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.todo-info {
+  margin-left: 25px;
+  font-family: Avenir;
+}
+
+.todo-text {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.todo-time {
+  margin-top: 6px;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
 }
