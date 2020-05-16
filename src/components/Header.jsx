@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="heading-container">
       <p className="heading-title">My Tasks</p>
-      <p className="heading-description">2 of 7 tasks</p>
+      <p className="heading-description">All your tasks are shown below.</p>
     </div>
   );
 }
