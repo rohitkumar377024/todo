@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa';
+  background-color: #eee;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 560px;
+  margin: 12px auto;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 0 #ccc;
+}
+
+/* Header */
+.heading-container {
+  margin: 32px 0 16px;
+  padding: 32px 20px 16px;
+}
+
+.heading-title {
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.heading-description {
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+  color: grey;
+}
+
+/* Adder */
+.adder-container {
+  padding: 0 20px 32px;
+  display: flex;
+}
+
+.adder-text {
+  flex: 3;
+  height: 32px;
+  padding: 5px;
+}
+
+.adder-time {
+  flex: 2;
+  margin: 0 12px;
+  padding: 5px;
+}
+
+.adder-btn {
+  flex: 1;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #e74c3c;
+}
+
+.adder-btn:hover {
+  background-color: #d04333;
+}
+
+.adder-btn:active {
+  background-color: #df3e2d;
+}
+
+/* Todo */
+.todo-container {
+  display: flex;
+  padding: 16px;
+  border-radius: 4px;
+  border-top: 1px solid rgba(238, 238, 238, 0.735);
+}
+
+.todo-checkbox {
+  align-self: flex-start;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.todo-info {
+  margin-left: 25px;
+}
+
+.todo-text {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.todo-time {
+  margin-top: 6px;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+}
